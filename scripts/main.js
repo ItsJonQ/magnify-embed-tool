@@ -4,23 +4,26 @@
 
     // Defining the config for RequireJS
     require.config({
-        packages: [
-            {
-                name: 'backbone',
-                location: '../bower_components/backbone',
-                main: 'backbone'
+
+        paths: {
+            jquery: ['../bower_components/jquery/jquery'],
+            underscore: ['../bower_components/underscore/underscore'],
+            backbone: ['../bower_components/backbone/backbone']
+        },
+
+        shim: {
+            'backbone': {
+                deps: ['underscore', 'jquery'],
+                exports: 'Backbone'
             },
-            {
-                name: 'jquery',
-                location: '../bower_components/jquery',
-                main: 'jquery'
+            'underscore': {
+                exports: '_'
             },
-            {
-                name: 'underscore',
-                location: '../bower_components/underscore',
-                main: 'underscore'
+            'jquery': {
+                exports: '$'
             }
-        ]
+        }
+
     });
 
     require(['jquery', 'underscore', 'backbone', 'app'], function($, _, Backbone, App) {
