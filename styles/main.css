@@ -1,0 +1,25 @@
+.video-list {
+
+}
+
+    .video-list .video-list-title {
+        margin-top: 0;
+        line-height: 1.4em;
+    }
+
+    .video-list .img-thumbnail.mini {
+        width: 85px;
+        margin-right: 10px;
+    }
+
+    .video-list .action-wrap {
+        display: block;
+    }
+
+        .video-list .action-wrap .action-main {
+            font-weight: bold;
+        }
+
+    .video-list li:hover .action-wrap {
+        display: block;
+    }
