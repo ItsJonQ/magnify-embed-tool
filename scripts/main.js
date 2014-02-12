@@ -7,17 +7,17 @@
         packages: [
             {
                 name: 'backbone',
-                location: '../bower_components/backbone/',
+                location: '../bower_components/backbone',
                 main: 'backbone'
             },
             {
                 name: 'jquery',
-                location: '../bower_components/jquery/',
+                location: '../bower_components/jquery',
                 main: 'jquery'
             },
             {
                 name: 'underscore',
-                location: '../bower_components/underscore/',
+                location: '../bower_components/underscore',
                 main: 'underscore'
             }
         ]

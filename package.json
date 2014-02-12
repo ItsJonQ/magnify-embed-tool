@@ -1,0 +1,25 @@
+{
+  "name": "magnify",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ItsJonQ/magnify-embed-tool.git"
+  },
+  "author": "Q",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ItsJonQ/magnify-embed-tool/issues"
+  },
+  "homepage": "https://github.com/ItsJonQ/magnify-embed-tool",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}

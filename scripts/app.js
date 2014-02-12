@@ -1,5 +1,7 @@
 define(function() {
 
+    'use strict';
+
     // Defining the Api object
     var Api = {};
 
