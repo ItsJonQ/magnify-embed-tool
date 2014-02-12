@@ -10,10 +10,13 @@
     .video-list .img-thumbnail.mini {
         width: 85px;
         margin-right: 10px;
+        display: block;
+        position: relative;
     }
 
     .video-list .action-wrap {
         display: block;
+        margin-bottom: 1.5em;
     }
 
         .video-list .action-wrap .action-main {
@@ -23,3 +26,8 @@
     .video-list li:hover .action-wrap {
         display: block;
     }
+
+.block-content {
+    width: auto;
+    overflow: hidden;
+}

@@ -31,12 +31,33 @@
         </div>
 
         <!-- build:js scripts/main.js -->
+
         <script data-main="scripts/main" type="text/javascript" src="scripts/require.js"></script>
         <!-- endbuild -->
 
-        <script type="text/template" id="templateVideoListItem">
 
-        </script>
+<script type="text/template" id="templateVideoListItem">
+    <img src="<%= thumbnail.url %>" class="img-thumbnail mini pull-left">
+
+    <div class="block-content">
+        <h5 class="video-list-title">
+            <strong><%= title %></strong>
+        </h5>
+        <div class="action-wrap">
+            <a class="btn btn-default btn-xs action-main" href="#">Get Embed Code</a> <a href="<%= link %>" target="_blank" class="btn btn-link btn-xs">View Video</a>
+        </div>
+    </div>
+
+</script>
+
+<script type="text/template" id="templateVideoEmbedCode">
+<iframe src="<%= link %>/player?layout=&amp;read_more=1" width="630" height="419" frameborder="0" scrolling="no"></iframe>
+</script>
+
+<script type="text/template" id="templateVideoEmbedBox">
+    <textarea class="form-control" rows="3"><%= embed %></textarea>
+</script>
+
 
     </body>
 </html>

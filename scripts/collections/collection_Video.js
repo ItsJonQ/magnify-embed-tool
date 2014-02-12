@@ -1,8 +1,15 @@
-define(['backbone','utils/fetch', 'models/model_Video'], function(Backbone, fetch, Model) {
+define([
+    'backbone',
+    'utils/fetch',
+    'models/model_Video',
+    'views/view_Video'
+    ], function(Backbone, fetch, Model, View) {
 
     'use strict';
 
     var collection = Backbone.Collection.extend({
+
+        $el: $('#video-list'),
 
         model: Model,
 
@@ -21,9 +28,24 @@ define(['backbone','utils/fetch', 'models/model_Video'], function(Backbone, fetc
                 // Looping through the entries
                 for(var i = 0, len = entries.length; i < len; i++) {
 
+                    var entry = entries[i];
+
                     // Creating the new entry Video model
-                    var entry = new Model({
-                        data: entries[i]
+                    var model = new Model({
+                        collection: self,
+                        data: {
+                            link: entry.link[1].href,
+                            thumbnail: {
+                                url: entry['media:thumbnail'].url
+                            },
+                            title: entry.title.content,
+                            query: entry
+                        }
+                    });
+
+                    var entryView = new View({
+                        collection: self,
+                        model: model
                     });
 
                     // Adding the entry model to the collection
