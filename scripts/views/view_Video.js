@@ -39,9 +39,20 @@ define(['backbone'], function(Backbone) {
             // Return this if the embed code is already set
             if(this.model.get('embed')) return this;
 
-            // Setting the embed code
-            this.model.set('embed', this.embedCodeTemplate(this.model.get('data') ));
+            var modelData = this.model.get('data');
 
+            // Setting the embed code
+            this.model.set('embedDefault', this.embedCodeTemplate({
+                model: modelData,
+                width: 630,
+                height: 419
+            }));
+
+            this.model.set('embedLarge', this.embedCodeTemplate({
+                model: modelData,
+                width: 960,
+                height: 604
+            }));
         },
 
         renderEmbed: function() {
@@ -55,7 +66,8 @@ define(['backbone'], function(Backbone) {
             var $modal = this.collection.$embedModal;
 
             // Generating the embed code
-            var embedCode = this.embedBoxTemplate(model.attributes);
+            var embedCodeDefault = this.embedBoxTemplate({ embed: model.get('embedDefault' ) });
+            var embedCodeLarge = this.embedBoxTemplate({ embed: model.get('embedLarge' ) });
 
             var embedPreview = '<img src="'+model.get('data').thumbnail.large+'">';
 
@@ -66,7 +78,8 @@ define(['backbone'], function(Backbone) {
             $modal.find('#embed-modal-preview').html(embedPreview);
 
             // Adding the embed code to the modal
-            $modal.find('#embed-modal-code').html(embedCode);
+            $modal.find('#embed-modal-code-default').html(embedCodeDefault);
+            $modal.find('#embed-modal-code-large').html(embedCodeLarge);
 
         }
 

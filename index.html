@@ -41,7 +41,15 @@
                     </div>
                     <div class="modal-body" id="embed-modal-body">
                         <div id="embed-modal-preview"></div>
-                        <div id="embed-modal-code">
+                        <div id="embed-modal-codes">
+
+                            <h5><strong>Default: 630px Embed Code</strong></h5>
+                            <div id="embed-modal-code-default"></div>
+
+                            <hr>
+
+                            <h5><strong>Large: 960px Embed Code</strong></h5>
+                            <div id="embed-modal-code-large"></div>
 
                         </div>
                     </div>
@@ -73,7 +81,7 @@
 </script>
 
 <script type="text/template" id="templateVideoEmbedCode">
-<iframe src="<%= link %>/player?layout=&amp;read_more=1" width="630" height="419" frameborder="0" scrolling="no"></iframe>
+<iframe src="<%= model.link %>/player?layout=&amp;read_more=1" width="<%= width %>" height="<%= height %>" frameborder="0" scrolling="no"></iframe>
 </script>
 
 <script type="text/template" id="templateVideoEmbedBox">
