@@ -1,0 +1,655 @@
+{
+   "rights": {
+      "content": "Copyright 2014, Magnify Networks"
+   },
+   "xmlns": "http://www.w3.org/2005/Atom",
+   "entry": [
+      {
+         "link": [
+            {
+               "rel": "self",
+               "href": "http://technobuffalo.magnify.net/api/content/show?id=RRX8FL3RT17J94BH&key=FN697D1RFGP2VQLR"
+            },
+            {
+               "rel": "alternate",
+               "href": "http://technobuffalo.magnify.net/video/Rettingers-Riffs-Goodbye-Flappy"
+            }
+         ],
+         "content": {
+            "content": "Rettinger's Riffs: Goodbye Flappy Bird Jon R is back to discuss various topics in and out of the tech world. On this week's episode, Jon riffs on the short-l..."
+         },
+         "author": {
+            "name": {
+               "content": "Anonymous"
+            },
+            "magnify:id": null,
+            "uri": null
+         },
+         "media:thumbnail": {
+            "url": "http://s3.amazonaws.com/magnifythumbs/MR99WJ34T28ZZXY4.jpg"
+         },
+         "published": {
+            "content": "2014-02-13T01:00:01Z"
+         },
+         "magnify:externalid": {
+            "content": "MSuqUMLpC34"
+         },
+         "media:content": {
+            "width": 300,
+            "medium": "video",
+            "url": "http://technobuffalo.magnify.net/embed/content/RRX8FL3RT17J94BH",
+            "duration": "386",
+            "type": "text/html",
+            "height": 360
+         },
+         "category": [
+            {
+               "label": "Tech",
+               "term": "Tech"
+            }
+         ],
+         "magnify:id": {
+            "content": "RRX8FL3RT17J94BH"
+         },
+         "id": {
+            "content": "http://technobuffalo.magnify.net/api/content/show?id=RRX8FL3RT17J94BH&key=FN697D1RFGP2VQLR"
+         },
+         "updated": {
+            "content": "2014-02-12T18:01:12Z"
+         },
+         "title": {
+            "content": "Rettingers Riffs: Goodbye Flappy Bird"
+         }
+      },
+      {
+         "link": [
+            {
+               "rel": "self",
+               "href": "http://technobuffalo.magnify.net/api/content/show?id=LTBYK61HWFX3FKS2&key=FN697D1RFGP2VQLR"
+            },
+            {
+               "rel": "alternate",
+               "href": "http://technobuffalo.magnify.net/video/Nokia-Lumia-Icon-Unboxing"
+            }
+         ],
+         "content": {
+            "content": "For more tech goodness, check us out at: http://www.technobuffalo.com Follow Us on Twitter: http://www.twitter.com/technobuffalo Like Us on Facebook: http://..."
+         },
+         "author": {
+            "name": {
+               "content": "Anonymous"
+            },
+            "magnify:id": null,
+            "uri": null
+         },
+         "media:thumbnail": {
+            "url": "http://s3.amazonaws.com/magnifythumbs/BCNF9707N44KY2ZB.jpg"
+         },
+         "published": {
+            "content": "2014-02-12T22:23:00Z"
+         },
+         "magnify:externalid": {
+            "content": "ywG_e-gOBe0"
+         },
+         "media:content": {
+            "width": 300,
+            "medium": "video",
+            "url": "http://technobuffalo.magnify.net/embed/content/LTBYK61HWFX3FKS2",
+            "duration": "360",
+            "type": "text/html",
+            "height": 360
+         },
+         "category": [
+            {
+               "label": "Tech",
+               "term": "Tech"
+            }
+         ],
+         "magnify:id": {
+            "content": "LTBYK61HWFX3FKS2"
+         },
+         "id": {
+            "content": "http://technobuffalo.magnify.net/api/content/show?id=LTBYK61HWFX3FKS2&key=FN697D1RFGP2VQLR"
+         },
+         "updated": {
+            "content": "2014-02-12T15:01:11Z"
+         },
+         "title": {
+            "content": "Nokia Lumia Icon Unboxing"
+         }
+      },
+      {
+         "link": [
+            {
+               "rel": "self",
+               "href": "http://technobuffalo.magnify.net/api/content/show?id=PDBGVG3QQ9C96CBZ&key=FN697D1RFGP2VQLR"
+            },
+            {
+               "rel": "alternate",
+               "href": "http://technobuffalo.magnify.net/video/Galaxy-S5-Icons-Leak-PS-Vita-Sl"
+            }
+         ],
+         "content": {
+            "content": "Galaxy S5 Icons Leak, PS Vita Slim, and more - Buffalo Bulletin New TouchWiz Icons For Galaxy S5 Teased - http://tchno.be/1m2JyMP Sprint Posts $1 Billion Los..."
+         },
+         "author": {
+            "name": {
+               "content": "Anonymous"
+            },
+            "magnify:id": null,
+            "uri": null
+         },
+         "media:thumbnail": {
+            "url": "http://s3.amazonaws.com/magnifythumbs/RYGGCS0R7FH9BKB9.jpg"
+         },
+         "published": {
+            "content": "2014-02-12T03:07:11Z"
+         },
+         "magnify:externalid": {
+            "content": "xoaeNz8BiGo"
+         },
+         "media:content": {
+            "width": 300,
+            "medium": "video",
+            "url": "http://technobuffalo.magnify.net/embed/content/PDBGVG3QQ9C96CBZ",
+            "duration": "234",
+            "type": "text/html",
+            "height": 360
+         },
+         "category": [
+            {
+               "label": "Tech",
+               "term": "Tech"
+            }
+         ],
+         "magnify:id": {
+            "content": "PDBGVG3QQ9C96CBZ"
+         },
+         "id": {
+            "content": "http://technobuffalo.magnify.net/api/content/show?id=PDBGVG3QQ9C96CBZ&key=FN697D1RFGP2VQLR"
+         },
+         "updated": {
+            "content": "2014-02-11T20:02:30Z"
+         },
+         "title": {
+            "content": "Galaxy S5 Icons Leak, PS Vita Slim, and more - Buffalo Bulletin"
+         }
+      },
+      {
+         "link": [
+            {
+               "rel": "self",
+               "href": "http://technobuffalo.magnify.net/api/content/show?id=CL30R0179K9T7017&key=FN697D1RFGP2VQLR"
+            },
+            {
+               "rel": "alternate",
+               "href": "http://technobuffalo.magnify.net/video/Tegra-Tuesday-NVIDIA-Shield"
+            }
+         ],
+         "content": {
+            "content": "Tegra Tuesday: NVIDIA Shield Enter Here: http://tchno.be/1lz5AmG Have you wanted to try the NVIDIA Shield? Then step right up as TechnoBuffalo, with the help..."
+         },
+         "author": {
+            "name": {
+               "content": "Anonymous"
+            },
+            "magnify:id": null,
+            "uri": null
+         },
+         "media:thumbnail": {
+            "url": "http://s3.amazonaws.com/magnifythumbs/5X3TRV0N375YG9TC.jpg"
+         },
+         "published": {
+            "content": "2014-02-12T02:16:47Z"
+         },
+         "magnify:externalid": {
+            "content": "B1CyvXo_rZY"
+         },
+         "media:content": {
+            "width": 300,
+            "medium": "video",
+            "url": "http://technobuffalo.magnify.net/embed/content/CL30R0179K9T7017",
+            "duration": "114",
+            "type": "text/html",
+            "height": 360
+         },
+         "category": [
+            {
+               "label": "Tech",
+               "term": "Tech"
+            }
+         ],
+         "magnify:id": {
+            "content": "CL30R0179K9T7017"
+         },
+         "id": {
+            "content": "http://technobuffalo.magnify.net/api/content/show?id=CL30R0179K9T7017&key=FN697D1RFGP2VQLR"
+         },
+         "updated": {
+            "content": "2014-02-11T19:02:28Z"
+         },
+         "title": {
+            "content": "Tegra Tuesday: NVIDIA Shield"
+         }
+      },
+      {
+         "link": [
+            {
+               "rel": "self",
+               "href": "http://technobuffalo.magnify.net/api/content/show?id=2DVWRB1L4Y8YD0Q0&key=FN697D1RFGP2VQLR"
+            },
+            {
+               "rel": "alternate",
+               "href": "http://technobuffalo.magnify.net/video/Nintendo-reveals-the-newest-Son"
+            }
+         ],
+         "content": {
+            "content": "Out of Controller: Nintendo reveals the newest Sonic game, Titanfall gets delayed for Xbox 360, and more Ashley Esqueda's got your dose of gaming news every ..."
+         },
+         "author": {
+            "name": {
+               "content": "Anonymous"
+            },
+            "magnify:id": null,
+            "uri": null
+         },
+         "media:thumbnail": {
+            "url": "http://s3.amazonaws.com/magnifythumbs/KX0XXH0B7DMFF793.jpg"
+         },
+         "published": {
+            "content": "2014-02-12T01:00:02Z"
+         },
+         "magnify:externalid": {
+            "content": "OxMk5hUMvD0"
+         },
+         "media:content": {
+            "width": 300,
+            "medium": "video",
+            "url": "http://technobuffalo.magnify.net/embed/content/2DVWRB1L4Y8YD0Q0",
+            "duration": "262",
+            "type": "text/html",
+            "height": 360
+         },
+         "category": [
+            {
+               "label": "Tech",
+               "term": "Tech"
+            }
+         ],
+         "magnify:id": {
+            "content": "2DVWRB1L4Y8YD0Q0"
+         },
+         "id": {
+            "content": "http://technobuffalo.magnify.net/api/content/show?id=2DVWRB1L4Y8YD0Q0&key=FN697D1RFGP2VQLR"
+         },
+         "updated": {
+            "content": "2014-02-11T18:01:47Z"
+         },
+         "title": {
+            "content": "Nintendo reveals the newest Sonic game, Titanfall gets delayed for Xbox 360, and more"
+         }
+      },
+      {
+         "link": [
+            {
+               "rel": "self",
+               "href": "http://technobuffalo.magnify.net/api/content/show?id=HK7R4P20S9BDF7DG&key=FN697D1RFGP2VQLR"
+            },
+            {
+               "rel": "alternate",
+               "href": "http://technobuffalo.magnify.net/video/Pebble-Steele-Unboxing"
+            }
+         ],
+         "content": {
+            "content": "For more tech goodness, check us out at: http://www.technobuffalo.com Follow Us on Twitter: http://www.twitter.com/technobuffalo Like Us on Facebook: http://..."
+         },
+         "author": {
+            "name": {
+               "content": "Anonymous"
+            },
+            "magnify:id": null,
+            "uri": null
+         },
+         "media:thumbnail": {
+            "url": "http://s3.amazonaws.com/magnifythumbs/L3TB393P5JK4M86G.jpg"
+         },
+         "published": {
+            "content": "2014-02-11T23:13:17Z"
+         },
+         "magnify:externalid": {
+            "content": "glhArw4kOGo"
+         },
+         "media:content": {
+            "width": 300,
+            "medium": "video",
+            "url": "http://technobuffalo.magnify.net/embed/content/HK7R4P20S9BDF7DG",
+            "duration": "279",
+            "type": "text/html",
+            "height": 360
+         },
+         "category": [
+            {
+               "label": "Tech",
+               "term": "Tech"
+            }
+         ],
+         "magnify:id": {
+            "content": "HK7R4P20S9BDF7DG"
+         },
+         "id": {
+            "content": "http://technobuffalo.magnify.net/api/content/show?id=HK7R4P20S9BDF7DG&key=FN697D1RFGP2VQLR"
+         },
+         "updated": {
+            "content": "2014-02-11T16:00:38Z"
+         },
+         "title": {
+            "content": "Pebble Steele Unboxing"
+         }
+      },
+      {
+         "link": [
+            {
+               "rel": "self",
+               "href": "http://technobuffalo.magnify.net/api/content/show?id=6ZS1QL2SS1PKJ0BX&key=FN697D1RFGP2VQLR"
+            },
+            {
+               "rel": "alternate",
+               "href": "http://technobuffalo.magnify.net/video/Toq-Qualcomm-Sunlight-Challenge"
+            },
+            {
+               "rel": "author",
+               "href": "http://technobuffalo.magnify.net/api/user/show?id=Y2RMWY2DQJG6HFJW&key=FN697D1RFGP2VQLR"
+            }
+         ],
+         "content": {
+            "content": "Toq - Qualcomm Sunlight Challenge One of our CES sponsors this year was Qualcomm, and we were happy to work with them, especially after checking out the Toq ..."
+         },
+         "author": {
+            "name": {
+               "content": "Jon"
+            },
+            "magnify:id": {
+               "content": "Y2RMWY2DQJG6HFJW"
+            },
+            "uri": {
+               "content": "http://technobuffalo.magnify.net/api/user/show?id=Y2RMWY2DQJG6HFJW&key=FN697D1RFGP2VQLR"
+            }
+         },
+         "media:thumbnail": {
+            "url": "http://s3.amazonaws.com/magnifythumbs/PWW6GR238CSK4SBZ.jpg"
+         },
+         "published": {
+            "content": "2014-01-20T19:48:51Z"
+         },
+         "magnify:externalid": {
+            "content": "wuTI6620sU4"
+         },
+         "media:content": {
+            "width": 300,
+            "medium": "video",
+            "url": "http://technobuffalo.magnify.net/embed/content/6ZS1QL2SS1PKJ0BX",
+            "duration": "186",
+            "type": "text/html",
+            "height": 360
+         },
+         "category": [
+            {
+               "label": "Tech",
+               "term": "Tech"
+            }
+         ],
+         "magnify:id": {
+            "content": "6ZS1QL2SS1PKJ0BX"
+         },
+         "id": {
+            "content": "http://technobuffalo.magnify.net/api/content/show?id=6ZS1QL2SS1PKJ0BX&key=FN697D1RFGP2VQLR"
+         },
+         "updated": {
+            "content": "2014-02-11T14:43:54Z"
+         },
+         "title": {
+            "content": "Toq - Qualcomm Sunlight Challenge"
+         }
+      },
+      {
+         "link": [
+            {
+               "rel": "self",
+               "href": "http://technobuffalo.magnify.net/api/content/show?id=YSX97Z2ST380SN4F&key=FN697D1RFGP2VQLR"
+            },
+            {
+               "rel": "alternate",
+               "href": "http://technobuffalo.magnify.net/video/Console-Wars-Xbox-One-Vs-PlaySt"
+            },
+            {
+               "rel": "author",
+               "href": "http://technobuffalo.magnify.net/api/user/show?id=Y2RMWY2DQJG6HFJW&key=FN697D1RFGP2VQLR"
+            }
+         ],
+         "content": {
+            "content": "Console Wars: Xbox One Vs. PlayStation 4 - Controllers (Round 1) With a new generation of gaming consoles now upon us, that can only mean one thing: It is ti..."
+         },
+         "author": {
+            "name": {
+               "content": "Jon"
+            },
+            "magnify:id": {
+               "content": "Y2RMWY2DQJG6HFJW"
+            },
+            "uri": {
+               "content": "http://technobuffalo.magnify.net/api/user/show?id=Y2RMWY2DQJG6HFJW&key=FN697D1RFGP2VQLR"
+            }
+         },
+         "media:thumbnail": {
+            "url": "http://s3.amazonaws.com/magnifythumbs/YLNDG61FVF7KY36X.jpg"
+         },
+         "published": {
+            "content": "2014-01-20T19:59:04Z"
+         },
+         "magnify:externalid": {
+            "content": "kfxxz4A89iw"
+         },
+         "media:content": {
+            "width": 300,
+            "medium": "video",
+            "url": "http://technobuffalo.magnify.net/embed/content/YSX97Z2ST380SN4F",
+            "duration": "879",
+            "type": "text/html",
+            "height": 360
+         },
+         "category": [
+            {
+               "label": "Games",
+               "term": "Games"
+            }
+         ],
+         "magnify:id": {
+            "content": "YSX97Z2ST380SN4F"
+         },
+         "id": {
+            "content": "http://technobuffalo.magnify.net/api/content/show?id=YSX97Z2ST380SN4F&key=FN697D1RFGP2VQLR"
+         },
+         "updated": {
+            "content": "2014-02-11T14:43:53Z"
+         },
+         "title": {
+            "content": "Console Wars: Xbox One Vs. PlayStation 4 - Controllers (Round 1)"
+         }
+      },
+      {
+         "link": [
+            {
+               "rel": "self",
+               "href": "http://technobuffalo.magnify.net/api/content/show?id=Z1P7GR2SSCQFJYM3&key=FN697D1RFGP2VQLR"
+            },
+            {
+               "rel": "alternate",
+               "href": "http://technobuffalo.magnify.net/video/Music-Players-and-Curved-Smartp"
+            },
+            {
+               "rel": "author",
+               "href": "http://technobuffalo.magnify.net/api/user/show?id=Y2RMWY2DQJG6HFJW&key=FN697D1RFGP2VQLR"
+            }
+         ],
+         "content": {
+            "content": "Ask the Buffalo: Music Players and Curved Smartphones Get your free audiobook today!: http://www.lynda.com/technobuffalo Ashley Esqueda is back to tackle mor..."
+         },
+         "author": {
+            "name": {
+               "content": "Jon"
+            },
+            "magnify:id": {
+               "content": "Y2RMWY2DQJG6HFJW"
+            },
+            "uri": {
+               "content": "http://technobuffalo.magnify.net/api/user/show?id=Y2RMWY2DQJG6HFJW&key=FN697D1RFGP2VQLR"
+            }
+         },
+         "media:thumbnail": {
+            "url": "http://s3.amazonaws.com/magnifythumbs/TRSDNF3P7HX22MR3.jpg"
+         },
+         "published": {
+            "content": "2014-01-21T01:00:01Z"
+         },
+         "magnify:externalid": {
+            "content": "T8EnR9nn3Ik"
+         },
+         "media:content": {
+            "width": 300,
+            "medium": "video",
+            "url": "http://technobuffalo.magnify.net/embed/content/Z1P7GR2SSCQFJYM3",
+            "duration": "414",
+            "type": "text/html",
+            "height": 360
+         },
+         "category": [
+            {
+               "label": "Tech",
+               "term": "Tech"
+            }
+         ],
+         "magnify:id": {
+            "content": "Z1P7GR2SSCQFJYM3"
+         },
+         "id": {
+            "content": "http://technobuffalo.magnify.net/api/content/show?id=Z1P7GR2SSCQFJYM3&key=FN697D1RFGP2VQLR"
+         },
+         "updated": {
+            "content": "2014-02-11T14:43:53Z"
+         },
+         "title": {
+            "content": "Music Players and Curved Smartphones"
+         }
+      },
+      {
+         "link": [
+            {
+               "rel": "self",
+               "href": "http://technobuffalo.magnify.net/api/content/show?id=H8RGR42SW7QVQJZW&key=FN697D1RFGP2VQLR"
+            },
+            {
+               "rel": "alternate",
+               "href": "http://technobuffalo.magnify.net/video/Tegra-Tuesday-Giveaway-HP-Slate"
+            },
+            {
+               "rel": "author",
+               "href": "http://technobuffalo.magnify.net/api/user/show?id=Y2RMWY2DQJG6HFJW&key=FN697D1RFGP2VQLR"
+            }
+         ],
+         "content": {
+            "content": "Tegra Tuesday Giveaway: HP SlateBook 10 x2 To Enter: http://tchno.be/1cS0VFz Do you want a tablet that also doubles as a laptop? Then step right up as Techno..."
+         },
+         "author": {
+            "name": {
+               "content": "Jon"
+            },
+            "magnify:id": {
+               "content": "Y2RMWY2DQJG6HFJW"
+            },
+            "uri": {
+               "content": "http://technobuffalo.magnify.net/api/user/show?id=Y2RMWY2DQJG6HFJW&key=FN697D1RFGP2VQLR"
+            }
+         },
+         "media:thumbnail": {
+            "url": "http://s3.amazonaws.com/magnifythumbs/QKDPZ815F7LHVNQ6.jpg"
+         },
+         "published": {
+            "content": "2014-01-21T21:47:28Z"
+         },
+         "magnify:externalid": {
+            "content": "PmQiltATVC4"
+         },
+         "media:content": {
+            "width": 300,
+            "medium": "video",
+            "url": "http://technobuffalo.magnify.net/embed/content/H8RGR42SW7QVQJZW",
+            "duration": "115",
+            "type": "text/html",
+            "height": 360
+         },
+         "category": [
+            {
+               "label": "Tech",
+               "term": "Tech"
+            }
+         ],
+         "magnify:id": {
+            "content": "H8RGR42SW7QVQJZW"
+         },
+         "id": {
+            "content": "http://technobuffalo.magnify.net/api/content/show?id=H8RGR42SW7QVQJZW&key=FN697D1RFGP2VQLR"
+         },
+         "updated": {
+            "content": "2014-02-11T14:43:53Z"
+         },
+         "title": {
+            "content": "Tegra Tuesday Giveaway: HP SlateBook 10 x2"
+         }
+      }
+   ],
+   "opensearch:Query": {
+      "searchTerms": "",
+      "role": "request"
+   },
+   "author": null,
+   "generator": {
+      "version": "beta",
+      "content": "Magnify.net API",
+      "uri": "http://www.magnify.net/api/"
+   },
+   "updated": {
+      "content": "2014-02-13T15:49:20Z"
+   },
+   "xmlns:magnify": "http://www.magnify.net/developers/api/ns",
+   "id": {
+      "content": "http://technobuffalo.magnify.net/api/content/find?vq=&per_page=10&page=1&sort=recent&key=FN697D1RFGP2VQLR&format=json"
+   },
+   "xmlns:opensearch": "http://a9.com/-/spec/opensearch/1.1/",
+   "link": [
+      {
+         "rel": "self",
+         "href": "http://technobuffalo.magnify.net/api/content/find?vq=&per_page=10&page=1&sort=recent&key=FN697D1RFGP2VQLR&format=json",
+         "type": "application/atom+xml"
+      },
+      {
+         "rel": "next",
+         "href": "http://technobuffalo.magnify.net/api/content/find?vq=&per_page=10&page=2&sort=recent&key=FN697D1RFGP2VQLR&format=json&start=11",
+         "type": "application/atom+xml"
+      }
+   ],
+   "media:thumbnail": null,
+   "opensearch:startIndex": {
+      "content": 1
+   },
+   "published": null,
+   "opensearch:itemsPerPage": {
+      "content": "10"
+   },
+   "opensearch:totalResults": {
+      "content": 37
+   },
+   "title": {
+      "content": "Search for Videos at technobuffalo"
+   },
+   "xmlns:media": "http://search.yahoo.com/mrss/"
+}
