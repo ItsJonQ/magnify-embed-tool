@@ -20,12 +20,34 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-8" id="body-content">
+                <div class="col-md-8 body-content solo" id="body-content">
+
+                    <h3 class="header-title"><span class="library">Magnify Library</span><span class="text-muted user">TechnoBuffalo</span></h3>
 
                     <ul id="video-list" class="list-group video-list">
 
                     </ul>
 
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="embed-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="embed-modal-title">Video Title</h4>
+                    </div>
+                    <div class="modal-body" id="embed-modal-body">
+                        <div id="embed-modal-preview"></div>
+                        <div id="embed-modal-code">
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -44,7 +66,7 @@
             <strong><%= title %></strong>
         </h5>
         <div class="action-wrap">
-            <a class="btn btn-default btn-xs action-main" href="#">Get Embed Code</a> <a href="<%= link %>" target="_blank" class="btn btn-link btn-xs">View Video</a>
+            <a class="btn btn-default btn-sm action-main" href="#" data-toggle="modal" data-target="#embed-modal">Get Embed Code</a> <a href="<%= link %>" target="_blank" class="btn btn-link btn-sm">View Video</a>
         </div>
     </div>
 

@@ -48,11 +48,25 @@ define(['backbone'], function(Backbone) {
             // Setup the embed code
             this.setupEmbed();
 
-            if(this.model.get('embedStatus')) return this;
+            // Defining the model
+            var model = this.model;
 
-            this.model.set('embedStatus', true);
+            // Defining the popup modal
+            var $modal = this.collection.$embedModal;
 
-            this.$el.find('.block-content').append(this.embedBoxTemplate(this.model.attributes));
+            // Generating the embed code
+            var embedCode = this.embedBoxTemplate(model.attributes);
+
+            var embedPreview = '<img src="'+model.get('data').thumbnail.large+'">';
+
+            // Upating the modal's title
+            $modal.find('#embed-modal-title').html(model.get('data').title);
+
+            // Updating the modal's thumb preview
+            $modal.find('#embed-modal-preview').html(embedPreview);
+
+            // Adding the embed code to the modal
+            $modal.find('#embed-modal-code').html(embedCode);
 
         }
 

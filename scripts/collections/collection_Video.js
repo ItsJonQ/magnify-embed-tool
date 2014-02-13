@@ -11,6 +11,8 @@ define([
 
         $el: $('#video-list'),
 
+        $embedModal: $('#embed-modal'),
+
         model: Model,
 
         initialize: function() {
@@ -31,12 +33,18 @@ define([
                     var entry = entries[i];
 
                     // Creating the new entry Video model
+
+                    // Defining the thumbnails
+                    var thumbnail = entry['media:thumbnail'].url;
+                    var thumbnailLarge = thumbnail.slice(0, -4) + '-l.jpg';
+
                     var model = new Model({
                         collection: self,
                         data: {
                             link: entry.link[1].href,
                             thumbnail: {
-                                url: entry['media:thumbnail'].url
+                                large: thumbnailLarge,
+                                url: thumbnail
                             },
                             title: entry.title.content,
                             query: entry

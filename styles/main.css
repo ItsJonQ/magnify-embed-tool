@@ -1,3 +1,24 @@
+.body-content {}
+
+    .body-content.solo {
+        float: none;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .body-content .header-title {
+        line-height: 1.4em;
+    }
+        .body-content .header-title span.library {
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        .body-content .header-title span.user {
+            font-weight: lighter;
+        }
+
 .video-list {
 
 }
@@ -31,3 +52,20 @@
     width: auto;
     overflow: hidden;
 }
+
+#embed-modal {
+
+}
+
+    #embed-modal .modal-title {
+        font-weight: bold;
+    }
+
+    #embed-modal-preview {
+        margin-bottom: 20px;
+    }
+
+    #embed-modal-preview img {
+        width: 100%;
+        height: auto;
+    }

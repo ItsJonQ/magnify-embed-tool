@@ -8,7 +8,8 @@
         paths: {
             jquery: ['../bower_components/jquery/jquery'],
             underscore: ['../bower_components/underscore/underscore'],
-            backbone: ['../bower_components/backbone/backbone']
+            backbone: ['../bower_components/backbone/backbone'],
+            bootstrap: ['../bower_components/bootstrap/dist/js/bootstrap']
         },
 
         shim: {
@@ -21,12 +22,15 @@
             },
             'jquery': {
                 exports: '$'
+            },
+            'bootstrap': {
+                deps: ['jquery'],
             }
         }
 
     });
 
-    require(['jquery', 'underscore', 'backbone', 'app'], function($, _, Backbone, App) {
+    require(['jquery', 'underscore', 'backbone', 'app', 'bootstrap'], function($, _, Backbone, App) {
 
         // Initializing the App
         App.init();
